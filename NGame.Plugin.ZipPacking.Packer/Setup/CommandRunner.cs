@@ -1,9 +1,9 @@
 using Microsoft.Extensions.Logging;
 using NGame.Assets.UsageFinder.TaskItems;
-using NGame.Assets.ZipPacking.Packer.Commands;
-using NGame.Assets.ZipPacking.Packer.FileWriters;
+using NGame.Plugin.ZipPacking.Packer.Commands;
+using NGame.Plugin.ZipPacking.Packer.FileWriters;
 
-namespace NGame.Assets.ZipPacking.Packer.Setup;
+namespace NGame.Plugin.ZipPacking.Packer.Setup;
 
 
 

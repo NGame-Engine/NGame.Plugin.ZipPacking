@@ -5,7 +5,7 @@ using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Logging.Configuration;
 using ILogger = Microsoft.Extensions.Logging.ILogger;
 
-namespace NGame.Assets.ZipPacking.Packer.Setup;
+namespace NGame.Plugin.ZipPacking.Packer.Setup;
 
 
 

@@ -1,0 +1,39 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <EnforceCodeStyleInBuild>true</EnforceCodeStyleInBuild>
+
+        <PackageId>NGame.Plugin.ZipPacking</PackageId>
+        <VersionPrefix>0.1.0</VersionPrefix>
+        <Authors>NGame Contributors</Authors>
+        <Description>A Game Engine Embracing the .NET Ecosystem</Description>
+        <Copyright>Copyright © NGame Contributors 2024</Copyright>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
+        <PackageProjectUrl>https://github.com/NGame-Engine/NGame/wiki</PackageProjectUrl>
+        <PackageIcon>nuget-logo.png</PackageIcon>
+        <RepositoryUrl>https://github.com/NGame-Engine/NGame.Plugin.ZipPacking</RepositoryUrl>
+        <RepositoryType>git</RepositoryType>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <PackageTags>Game Engine</PackageTags>
+        <IncludeSymbols>true</IncludeSymbols>
+        <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <None Include="nuget-logo.png" Pack="true" PackagePath=""/>
+        <None Include="README.md" Pack="true" PackagePath=""/>
+    </ItemGroup>
+
+    <ItemGroup>
+        <PackageReference Include="NGame.Assets.Abstractions" Version="0.1.0" />
+        <PackageReference Include="NGame.Plugin.ZipPacking.Task" Version="0.1.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\NGame.Plugin.ZipPacking.Common\NGame.Plugin.ZipPacking.Common.csproj" />
+    </ItemGroup>
+
+</Project>

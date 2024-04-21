@@ -2,8 +2,8 @@ using System.Text.Json;
 using System.Text.Json.Serialization;
 using Microsoft.Extensions.Hosting;
 using NGame.Assets.Serialization;
-using NGame.Assets.ZipPacking.Common;
-using TableOfContents = NGame.Assets.ZipPacking.Common.TableOfContents;
+using NGame.Plugin.ZipPacking.Common;
+using TableOfContents = NGame.Plugin.ZipPacking.Common.TableOfContents;
 
 namespace NGame.Assets.ZipPacking;
 

@@ -2,7 +2,7 @@ using System.IO.Compression;
 using NGame.Assets.UsageFinder.TaskItems;
 using Singulink.IO;
 
-namespace NGame.Assets.ZipPacking.Packer.Commands;
+namespace NGame.Plugin.ZipPacking.Packer.Commands;
 
 
 

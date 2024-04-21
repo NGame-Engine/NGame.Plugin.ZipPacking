@@ -2,7 +2,7 @@
 using System.Text;
 using Microsoft.Extensions.Hosting;
 using NGame.Assets.Serialization;
-using NGame.Assets.ZipPacking.Common;
+using NGame.Plugin.ZipPacking.Common;
 
 namespace NGame.Assets.ZipPacking;
 

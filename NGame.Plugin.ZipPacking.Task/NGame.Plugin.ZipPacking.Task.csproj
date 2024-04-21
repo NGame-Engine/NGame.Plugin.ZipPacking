@@ -6,8 +6,8 @@
         <Nullable>enable</Nullable>
         <EnforceCodeStyleInBuild>true</EnforceCodeStyleInBuild>
 
-        <PackageId>NGame.Assets.ZipPacking.Task</PackageId>
-        <VersionPrefix>0.0.14</VersionPrefix>
+        <PackageId>NGame.Plugin.ZipPacking.Task</PackageId>
+        <VersionPrefix>0.1.0</VersionPrefix>
         <Authors>NGame Contributors</Authors>
         <Description>A Game Engine Embracing the .NET Ecosystem</Description>
         <Copyright>Copyright © NGame Contributors 2024</Copyright>
@@ -24,8 +24,8 @@
     <ItemGroup>
         <None Include="nuget-logo.png" Pack="true" PackagePath=""/>
         <None Include="README.md" Pack="true" PackagePath=""/>
-        <None Include="buildTransitive\NGame.Assets.ZipPackaging.Task.props" Pack="true" PackagePath="buildTransitive"/>
-        <None Include="buildTransitive\NGame.Assets.ZipPackaging.Task.targets" Pack="true" PackagePath="buildTransitive"/>
+        <None Include="buildTransitive\NGame.Plugin.ZipPacking.Task.props" Pack="true" PackagePath="buildTransitive" />
+        <None Include="buildTransitive\NGame.Plugin.ZipPacking.Task.targets" Pack="true" PackagePath="buildTransitive" />
     </ItemGroup>
 
     <ItemGroup>
@@ -39,8 +39,8 @@
     </ItemGroup>
 
     <ItemGroup>
-        <ProjectReference Include="..\NGame.Assets.ZipPacking.Common\NGame.Assets.ZipPacking.Common.csproj" />
-        <ProjectReference Include="..\NGame.Assets.ZipPacking.Packer\NGame.Assets.ZipPacking.Packer.csproj" />
+        <ProjectReference Include="..\NGame.Plugin.ZipPacking.Common\NGame.Plugin.ZipPacking.Common.csproj" />
+        <ProjectReference Include="..\NGame.Plugin.ZipPacking.Packer\NGame.Plugin.ZipPacking.Packer.csproj" />
     </ItemGroup>
 
 

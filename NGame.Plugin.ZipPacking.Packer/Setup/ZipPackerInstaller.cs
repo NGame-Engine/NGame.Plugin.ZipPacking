@@ -1,10 +1,10 @@
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using NGame.Assets.UsageFinder.Setup;
-using NGame.Assets.ZipPacking.Packer.Commands;
-using NGame.Assets.ZipPacking.Packer.FileWriters;
+using NGame.Plugin.ZipPacking.Packer.Commands;
+using NGame.Plugin.ZipPacking.Packer.FileWriters;
 
-namespace NGame.Assets.ZipPacking.Packer.Setup;
+namespace NGame.Plugin.ZipPacking.Packer.Setup;
 
 
 

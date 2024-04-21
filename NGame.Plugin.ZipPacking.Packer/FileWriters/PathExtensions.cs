@@ -1,6 +1,6 @@
 using Singulink.IO;
 
-namespace NGame.Assets.ZipPacking.Packer.FileWriters;
+namespace NGame.Plugin.ZipPacking.Packer.FileWriters;
 
 
 

@@ -2,7 +2,7 @@
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using NGame.Assets.UsageFinder.TaskItems;
-using NGame.Assets.ZipPacking.Packer.Setup;
+using NGame.Plugin.ZipPacking.Packer.Setup;
 
 namespace NGame.Assets.ZipPacking.Task;
 

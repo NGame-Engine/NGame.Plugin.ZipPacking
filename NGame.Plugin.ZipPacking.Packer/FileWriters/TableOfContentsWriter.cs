@@ -1,10 +1,10 @@
 using System.Text.Json;
 using System.Text.Json.Serialization;
 using NGame.Assets.UsageFinder.TaskItems;
-using NGame.Assets.ZipPacking.Common;
+using NGame.Plugin.ZipPacking.Common;
 using Singulink.IO;
 
-namespace NGame.Assets.ZipPacking.Packer.FileWriters;
+namespace NGame.Plugin.ZipPacking.Packer.FileWriters;
 
 
 

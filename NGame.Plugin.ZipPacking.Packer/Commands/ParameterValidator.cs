@@ -1,8 +1,8 @@
 using System.IO.Compression;
-using NGame.Assets.ZipPacking.Packer.Setup;
+using NGame.Plugin.ZipPacking.Packer.Setup;
 using Singulink.IO;
 
-namespace NGame.Assets.ZipPacking.Packer.Commands;
+namespace NGame.Plugin.ZipPacking.Packer.Commands;
 
 
 
