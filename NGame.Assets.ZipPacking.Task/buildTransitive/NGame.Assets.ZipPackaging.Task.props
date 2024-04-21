@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+
+    <PropertyGroup>
+        <_ZipPackaging_TaskFolder>$(MSBuildThisFileDirectory)..\tasks\net8.0</_ZipPackaging_TaskFolder>
+        <ZipPackagingAssembly>$(_ZipPackaging_TaskFolder)\$(MSBuildThisFileName).dll</ZipPackagingAssembly>
+    </PropertyGroup>
+
+    <UsingTask TaskName="$(MSBuildThisFileName).CreateAssetPacks" AssemblyFile="$(ZipPackagingAssembly)"/>
+
+    <PropertyGroup>
+
+        <NgAssetsZipPackingMinifyJson
+            Condition=" '$(NgAssetsZipPackingMinifyJson)' == '' And '$(Configuration)' == 'Release' ">
+            true
+        </NgAssetsZipPackingMinifyJson>
+
+        <NgAssetsZipPackingMinifyJson Condition=" '$(NgAssetsZipPackingMinifyJson)' == '' ">
+            false
+        </NgAssetsZipPackingMinifyJson>
+
+        <NgAssetsZipPackingCompressionLevel
+            Condition=" '$(NgAssetsZipPackingCompressionLevel)' == '' And '$(Configuration)' == 'Debug' ">
+            1
+        </NgAssetsZipPackingCompressionLevel>
+
+    </PropertyGroup>
+</Project>
