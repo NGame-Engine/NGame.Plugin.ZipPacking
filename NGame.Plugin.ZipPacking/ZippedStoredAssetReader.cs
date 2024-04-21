@@ -5,7 +5,7 @@ using NGame.Assets.Serialization;
 using NGame.Plugin.ZipPacking.Common;
 using TableOfContents = NGame.Plugin.ZipPacking.Common.TableOfContents;
 
-namespace NGame.Assets.ZipPacking;
+namespace NGame.Plugin.ZipPacking;
 
 
 

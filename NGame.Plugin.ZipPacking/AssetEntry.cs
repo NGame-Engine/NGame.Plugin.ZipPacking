@@ -1,4 +1,4 @@
-namespace NGame.Assets.ZipPacking;
+namespace NGame.Plugin.ZipPacking;
 
 
 

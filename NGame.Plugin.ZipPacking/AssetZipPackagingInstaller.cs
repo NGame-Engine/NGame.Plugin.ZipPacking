@@ -2,7 +2,7 @@
 using Microsoft.Extensions.Hosting;
 using NGame.Assets.Serialization;
 
-namespace NGame.Assets.ZipPacking;
+namespace NGame.Plugin.ZipPacking;
 
 
 

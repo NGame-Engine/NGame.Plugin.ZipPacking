@@ -4,7 +4,7 @@ using Microsoft.Extensions.Hosting;
 using NGame.Assets.UsageFinder.TaskItems;
 using NGame.Plugin.ZipPacking.Packer.Setup;
 
-namespace NGame.Assets.ZipPacking.Task;
+namespace NGame.Plugin.ZipPacking.Task;
 
 
 
