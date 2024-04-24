@@ -7,7 +7,7 @@
         <EnforceCodeStyleInBuild>true</EnforceCodeStyleInBuild>
 
         <PackageId>NGame.Plugin.ZipPacking.Task</PackageId>
-        <VersionPrefix>0.1.0</VersionPrefix>
+        <VersionPrefix>0.1.1</VersionPrefix>
         <Authors>NGame Contributors</Authors>
         <Description>A Game Engine Embracing the .NET Ecosystem</Description>
         <Copyright>Copyright © NGame Contributors 2024</Copyright>
@@ -34,12 +34,9 @@
             Version="17.9.5"
             PrivateAssets="all"
             ExcludeAssets="Runtime"/>
-        <PackageReference Include="Microsoft.Extensions.Hosting" Version="8.0.0" PrivateAssets="all" />
-        <PackageReference Include="Singulink.IO.FileSystem" Version="1.0.2" PrivateAssets="all" />
     </ItemGroup>
 
     <ItemGroup>
-        <ProjectReference Include="..\NGame.Plugin.ZipPacking.Common\NGame.Plugin.ZipPacking.Common.csproj" />
         <ProjectReference Include="..\NGame.Plugin.ZipPacking.Packer\NGame.Plugin.ZipPacking.Packer.csproj" />
     </ItemGroup>
 

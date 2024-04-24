@@ -8,6 +8,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NGame.Plugin.ZipPacking.Tas
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NGame.Plugin.ZipPacking", "NGame.Plugin.ZipPacking\NGame.Plugin.ZipPacking.csproj", "{5CFA2DFE-AE1C-4C16-8D48-4342EE329888}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example", "Example\Example.csproj", "{9717E6CA-A291-463C-80E9-89E2F01F9791}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +32,9 @@ Global
 		{5CFA2DFE-AE1C-4C16-8D48-4342EE329888}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5CFA2DFE-AE1C-4C16-8D48-4342EE329888}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5CFA2DFE-AE1C-4C16-8D48-4342EE329888}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9717E6CA-A291-463C-80E9-89E2F01F9791}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9717E6CA-A291-463C-80E9-89E2F01F9791}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9717E6CA-A291-463C-80E9-89E2F01F9791}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9717E6CA-A291-463C-80E9-89E2F01F9791}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

@@ -7,7 +7,7 @@
         <EnforceCodeStyleInBuild>true</EnforceCodeStyleInBuild>
 
         <PackageId>NGame.Plugin.ZipPacking</PackageId>
-        <VersionPrefix>0.2.0</VersionPrefix>
+        <VersionPrefix>0.2.3</VersionPrefix>
         <Authors>NGame Contributors</Authors>
         <Description>A Game Engine Embracing the .NET Ecosystem</Description>
         <Copyright>Copyright © NGame Contributors 2024</Copyright>
@@ -29,7 +29,7 @@
 
     <ItemGroup>
         <PackageReference Include="NGame.Assets.Abstractions" Version="0.1.0" />
-        <PackageReference Include="NGame.Plugin.ZipPacking.Task" Version="0.1.0" />
+        <PackageReference Include="NGame.Plugin.ZipPacking.Task" Version="0.1.1" />
     </ItemGroup>
 
     <ItemGroup>
